@@ -1,0 +1,7 @@
+rule_id,severity,component,start_time,end_time,duration_samples,observed_value,threshold,description
+CELL_IMBALANCE,WARNING,cell_voltage_group,2026-09-15 08:03:00,2026-09-15 08:03:24,25,0.169,Delta <= 0.080 V,Spannungsdifferenz zwischen höchster und niedrigster Zelle auffällig
+OVER_TEMPERATURE,CRITICAL,temp_03_c,2026-09-15 08:05:30,2026-09-15 08:05:54,25,62.66,<= 55.0 °C,Temperatur über generischem Lern-Grenzwert
+TEMPERATURE_SPREAD,WARNING,temperature_sensor_group,2026-09-15 08:05:30,2026-09-15 08:05:54,25,36.03,Delta <= 15.0 °C,Temperaturdifferenz zwischen Sensoren auffällig
+FROZEN_SENSOR,WARNING,temp_02_c,2026-09-15 08:07:14,2026-09-15 08:07:29,16,27.08,keine konstante Folge über 15 Werte,Mögliches eingefrorenes Sensorsignal erkannt
+MISSING_VALUE,WARNING,cell_10_voltage_v,2026-09-15 08:08:20,2026-09-15 08:08:20,1,NaN,Wert vorhanden,Fehlender oder nicht interpretierbarer Messwert
+PACK_VOLTAGE_MISMATCH,WARNING,pack_voltage_v,2026-09-15 08:09:00,2026-09-15 08:09:09,10,2.066,Abweichung <= 0.80 V,Packspannung passt nicht zur Summe der Zellspannungen

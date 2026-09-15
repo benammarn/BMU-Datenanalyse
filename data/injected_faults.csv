@@ -1,0 +1,6 @@
+fault_id,expected_rule,start_index,end_index,component,description
+F01,CELL_IMBALANCE,180,204,cell_07_voltage_v,Künstlich abgesenkte Zellspannung
+F02,OVER_TEMPERATURE,330,354,temp_03_c,Künstliche lokale Übertemperatur
+F03,FROZEN_SENSOR,420,449,temp_02_c,Eingefrorenes Temperatursignal
+F04,MISSING_VALUE,500,500,cell_10_voltage_v,Fehlender Zellspannungswert
+F05,PACK_VOLTAGE_MISMATCH,540,549,pack_voltage_v,Inkonsistenz zwischen Pack- und Zellspannungssumme
